@@ -154,3 +154,4 @@ ON facilities.facid = bookings.facid
 GROUP BY facilities.name
     ) a
 WHERE revenue < 1000
+ORDER BY revenue
